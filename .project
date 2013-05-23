@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>HHUDStreamUpdater</name>
-	<comment></comment>
+	<name>WowzaStreamUpdater</name>
+	<comment>Wowza Media Server plugin for sending notifications on stream status changes</comment>
 	<projects>
 	</projects>
 	<buildSpec>
