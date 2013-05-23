@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<project name="HHUDStreamUpdater" default="jar" basedir="..">
+<project name="WowzaStreamUpdater" default="jar" basedir="..">
 	
 	<property name="wowza.lib.dir" value="C:/Program Files (x86)/Wowza Media Systems/Wowza Media Server 3.1.1/lib"/>
-	<property name="jar.filename" value="HHUDStreamUpdater.jar"/>
+	<property name="jar.filename" value="WowzaStreamUpdater.jar"/>
 	<property name="core.build.dir" value="bin"/>
 
 	<target name="jar">
