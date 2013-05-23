@@ -11,15 +11,15 @@ Use Wowza IDE (http://www.wowza.com/media-server/developers) or the Wowza plugin
 Setup
 -----
 1. Set a proper VHost name in [wowza-install-dir]/conf/VHosts.xml
-2. Add the following code to the <code><Modules></code> section of your application's Application.xml:
-      <Module>
-        <Name>StreamUpdater</Name>
-        <Description>WowzaStreamUpdater</Description>
-        <Class>de.hhu.wms.streamupdater.StreamUpdater</Class>
-      </Module>
-3. Add the following code to the <Properties> section of your application's Application.xml:
-      <Property>
-        <Name>streamupdaterurl</Name>
-        <Value>http://[your-handler-url]</Value>
-      </Property>
+2. Add the following code to the &lt;Modules&gt; section of your application's Application.xml:
+      &lt;Module&gt;
+        &lt;Name&gt;StreamUpdater&lt;/Name&gt;
+        &lt;Description&gt;WowzaStreamUpdater&lt;/Description&gt;
+        &lt;Class&gt;de.hhu.wms.streamupdater.StreamUpdater&lt;/Class&gt;
+      &lt;/Module&gt;
+3. Add the following code to the &lt;Properties> section of your application's Application.xml:
+      &lt;Property&gt;
+        &lt;Name&gt;streamupdaterurl&lt;/Name&gt;
+        &lt;Value&gt;http://[your-handler-url]&lt;/Value&gt;
+      &lt;/Property&gt;
 3. Copy WowzaStreamUpdater.jar to [wowza-install-dir]/lib
