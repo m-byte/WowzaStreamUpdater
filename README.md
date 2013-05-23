@@ -11,7 +11,7 @@ Use Wowza IDE (http://www.wowza.com/media-server/developers) or the Wowza plugin
 Setup
 -----
 1. Set a proper VHost name in [wowza-install-dir]/conf/VHosts.xml
-2. Add the following code to the <Modules> section of your application's Application.xml:
+2. Add the following code to the <code><Modules></code> section of your application's Application.xml:
       <Module>
         <Name>StreamUpdater</Name>
         <Description>WowzaStreamUpdater</Description>
