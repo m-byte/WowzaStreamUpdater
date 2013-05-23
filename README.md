@@ -12,14 +12,14 @@ Setup
 -----
 1. Set a proper VHost name in [wowza-install-dir]/conf/VHosts.xml
 2. Add the following code to the &lt;Modules&gt; section of your application's Application.xml:
-      &lt;Module&gt;
+<pre>      &lt;Module&gt;
         &lt;Name&gt;StreamUpdater&lt;/Name&gt;
         &lt;Description&gt;WowzaStreamUpdater&lt;/Description&gt;
         &lt;Class&gt;de.hhu.wms.streamupdater.StreamUpdater&lt;/Class&gt;
-      &lt;/Module&gt;
+      &lt;/Module&gt;</pre>
 3. Add the following code to the &lt;Properties> section of your application's Application.xml:
-      &lt;Property&gt;
+<pre>      &lt;Property&gt;
         &lt;Name&gt;streamupdaterurl&lt;/Name&gt;
         &lt;Value&gt;http://[your-handler-url]&lt;/Value&gt;
-      &lt;/Property&gt;
+      &lt;/Property&gt;</pre>
 3. Copy WowzaStreamUpdater.jar to [wowza-install-dir]/lib
